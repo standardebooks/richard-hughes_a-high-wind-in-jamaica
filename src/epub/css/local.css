@@ -1,7 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-[epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -40,11 +39,6 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
 
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
@@ -60,10 +54,6 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
-}
 
 tr.together{
 	break-inside: avoid;
@@ -74,15 +64,10 @@ tr.together td{
 	vertical-align: middle;
 }
 
-tr.together td:only-child,
 tr.together td + td{
 	border-left: 1px solid;
 }
 
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
-}
 
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
@@ -110,18 +95,4 @@ footer{
 
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
 }
