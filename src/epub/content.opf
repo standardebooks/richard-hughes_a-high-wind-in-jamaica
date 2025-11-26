@@ -38,9 +38,10 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008109300</meta>
 		<meta property="se:subject">Adventure</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">After their parents’ plantation in Jamaica is destroyed by a hurricane, a group of children returning to England are kidnapped by pirates.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;After a devastating hurricane ravages their Jamaican plantation, the Bas-Thornton children are sent on a voyage to England by their parents. En route, their ship is overrun by pirates, and the children are brought into a world of violence and moral ambiguity, where their innocence is put at stake.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;A High Wind in Jamaica&lt;/i&gt;, originally named &lt;i&gt;The Innocent Voyage&lt;/i&gt;, is &lt;a href="https://standardebooks.org/ebooks/richard-hughes"&gt;Richard Hughes’&lt;/a&gt; first and most celebrated novel. Credited for influencing &lt;i&gt;Lord of the Flies&lt;/i&gt;, the book was inspired by an unpublished report written by someone who had been taken hostage by pirates as a child.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/75530</dc:source>
@@ -55,6 +56,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Richard_Hughes</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50034197</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Winslow Homer</dc:contributor>
 		<meta property="file-as" refines="#artist">Homer, Winslow</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Winslow_Homer</meta>
