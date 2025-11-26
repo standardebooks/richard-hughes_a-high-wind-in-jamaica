@@ -39,7 +39,6 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
-
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
@@ -54,7 +53,6 @@ table[epub|type~="z3998:drama"]{
 	font-variant: all-small-caps;
 }
 
-
 tr.together{
 	break-inside: avoid;
 }
@@ -67,7 +65,6 @@ tr.together td{
 tr.together td + td{
 	border-left: 1px solid;
 }
-
 
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
