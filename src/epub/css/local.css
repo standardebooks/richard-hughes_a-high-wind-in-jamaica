@@ -93,3 +93,7 @@ footer{
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
+
+#chapter-10-1 blockquote{
+	text-align: center;
+}
