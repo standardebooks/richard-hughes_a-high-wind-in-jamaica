@@ -1,7 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 /* CSS for drama section */
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
@@ -72,7 +71,6 @@ tr.together td + td{
 	padding-left: .5em;
 }
 
-
 /* CSS for letters */
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -98,7 +96,6 @@ footer{
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
-
 
 /* centering specific blockquote in first section of chapter 10 */
 #chapter-10-1 blockquote{
