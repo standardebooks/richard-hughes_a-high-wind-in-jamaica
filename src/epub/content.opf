@@ -53,7 +53,7 @@
 		<dc:creator id="author">Richard Hughes</dc:creator>
 		<meta property="file-as" refines="#author">Hughes, Richard</meta>
 		<meta property="se:name.person.full-name" refines="#author">Richard Arthur Warren Hughes</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Richard_Hughes</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Richard_Hughes_(British_writer)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50034197</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
