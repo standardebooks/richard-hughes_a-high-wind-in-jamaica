@@ -38,6 +38,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008109300</meta>
 		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">After their parents’ plantation in Jamaica is destroyed by a hurricane, a group of children returning to England are kidnapped by pirates.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;After a devastating hurricane ravages their Jamaican plantation, the Bas-Thornton children are sent on a voyage to England by their parents. En route, their ship is overrun by pirates, and the children are brought into a world of violence and moral ambiguity, where their innocence is put at stake.&lt;/p&gt;
