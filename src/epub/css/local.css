@@ -101,3 +101,8 @@ footer{
 #chapter-10-1 blockquote{
 	text-align: center;
 }
+
+/* <q> tag styling
+q{
+	font-style: italic;
+} */
