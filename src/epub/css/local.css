@@ -106,3 +106,7 @@ footer{
 q{
 	font-style: italic;
 }
+
+q i{
+	font-style: normal;
+}
