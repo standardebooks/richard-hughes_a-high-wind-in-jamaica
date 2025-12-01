@@ -48,7 +48,7 @@
 		<meta property="group-position" refines="#collection-2">12</meta>
 		<dc:description id="description">After their parents’ plantation in Jamaica is destroyed by a hurricane, a group of children returning to England are kidnapped by pirates.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;After a devastating hurricane ravages their Jamaican plantation, the Bas-Thornton children are sent on a voyage to England by their parents. En route, their ship is overrun by pirates, and the children are brought into a world of violence and moral ambiguity, with their innocence is at stake.&lt;/p&gt;
+			&lt;p&gt;After a devastating hurricane ravages their Jamaican plantation, the Bas-Thornton children are sent on a voyage to England by their parents. En route, their ship is overrun by pirates, and the children are brought into a world of violence and moral ambiguity, with their innocence at stake.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;A High Wind in Jamaica&lt;/i&gt;, originally named &lt;i&gt;The Innocent Voyage&lt;/i&gt;, is &lt;a href="https://standardebooks.org/ebooks/richard-hughes"&gt;Richard Hughes’&lt;/a&gt; first and most celebrated novel. Credited for influencing &lt;i&gt;Lord of the Flies&lt;/i&gt;, the book was inspired by an unpublished report written by someone who had been taken hostage by pirates as a child.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
