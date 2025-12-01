@@ -1,7 +1,46 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* CSS for drama section */
+q{
+	font-style: italic;
+}
+
+q i{
+	font-style: normal;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -69,44 +108,4 @@ tr.together td + td{
 
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
-}
-
-/* CSS for letters */
-[epub|type~="z3998:signature"]{
-	font-variant: small-caps;
-}
-
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-
-/* CSS for verse */
-[epub|type~="z3998:poem"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:poem"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:poem"] p > span + br{
-	display: none;
-}
-
-/* centering specific blockquote in first section of chapter 10 */
-#chapter-10-1 blockquote{
-	text-align: center;
-}
-
-/* <q> tag styling */
-q{
-	font-style: italic;
-}
-
-q i{
-	font-style: normal;
 }
