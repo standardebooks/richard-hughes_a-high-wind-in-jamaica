@@ -82,8 +82,8 @@
 		<dc:contributor id="transcriber-3">Andrew Butchers</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Butchers, Andrew</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Samuel Medalha</dc:contributor>
